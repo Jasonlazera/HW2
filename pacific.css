@@ -1,0 +1,131 @@
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+
+/* Body is styled with necessary colors, widths, margins, gradient */
+body {
+	background-color: #00569f;
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: linear-gradient(rgb(209, 242, 255), rgb(75, 148, 196), #00569f);
+	height:100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+}
+
+/* Wrapper provides "box" with all of the information inside of it */
+#wrapper {
+	min-width: 600px;
+	margin-left:auto;
+	margin-right:auto;
+	width:80%;
+	height:80%;
+}
+
+header {
+	color:white;
+	font-size: 18px;
+	min-width:600px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+/* Styling for nav bar on the side */
+nav {
+	background-color: #abe0fa;
+    width: 160px;
+	height:100%;
+    font-size: 16px;
+	float:left;
+	padding-left:20px;
+}
+
+/*Link colors set, underlines and bullets removed*/
+nav ul{
+	list-style-type: none;
+	margin-left:0px;
+	padding-left:0px;
+	font-size: 1.2em;
+	}
+
+li a{
+	text-decoration: none;
+	color:#000033;
+	font-weight: bold;
+	padding-top: 6px;
+	padding-bottom: 5px;
+	}
+
+nav a:hover {
+	color: #FFFFFF;
+}
+
+nav a:visited{
+	color:#666666;
+}
+
+/* Formatting of h1 */
+h1 {
+	padding: 10px;
+	background-image: url(sunset.jpg);
+	background-position: center;
+	background-size: cover;
+	margin-bottom: 0px;
+}
+
+/* Set color of h2 */ 
+h2 {
+	color: #3399CC;
+}
+
+/* Fonts Set for h1 and h2*/
+h1,
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+#contact {
+	font-size: 90%;
+}
+
+/* dt color from class */
+dt {
+	color: #000033;
+}
+
+/* Footer font set and correct padding*/
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+	font-style: italic;
+	font-size: 12px;
+	background-color: white;
+	padding-bottom: 25px;
+}
+
+/* Content properly formatted */
+#content {
+	background-color: white;
+    font-size: 14px;
+	margin-left: auto;
+	margin-right: 0px;
+	padding-left: 200px;
+	padding-bottom: 50px;
+	padding-top: 4px;
+	padding-right: 20px;
+}
+
+img {
+	float:left;
+	margin-right: 25px;
+}
+
+/* Using the gif */
+#content li{
+	list-style-image: url('marker.gif');
+    list-style-position: inside; 
+}
+
+span{
+	color:rgb(111, 161, 228);
+	font-weight: bold;
+}
+
